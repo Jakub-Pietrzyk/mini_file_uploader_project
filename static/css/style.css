@@ -1,0 +1,74 @@
+header{
+    margin: 0;
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+a:hover{
+    background-color: blue;
+}
+
+#content{
+    padding: 50px 100px;
+}
+
+.header-column{
+    background-color: grey;
+}
+
+table{
+    border: 4px solid darkblue;
+    padding: 0;
+}
+
+td{
+    border: 2px solid blue;
+    padding: 15px;
+}
+.table-link{
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  color: red;
+  border-radius: 25px;
+  transition: border 0.3s;
+  border: 2px solid white;
+}
+
+.table-link:hover{
+  background-color: white;
+  border: 2px solid blue;
+}
+
+h3{
+  color: darkblue;
+  font-size: 24px;
+  margin: 10px;
+}
+
+h3::first-letter{
+  text-transform: uppercase;
+}
+
+.extension-image{
+  width: 50px;
+  height: auto;
+}
